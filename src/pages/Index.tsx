@@ -8,26 +8,64 @@ import oldFashionedImg from "@/assets/old-fashioned.jpg";
 import negroniImg from "@/assets/negroni.jpg";
 import manhattanImg from "@/assets/manhattan.jpg";
 import margaritaImg from "@/assets/margarita.jpg";
+import espressoMartiniImg from "@/assets/espresso-martini.jpg";
+import sazeracImg from "@/assets/sazerac.jpg";
+import boulevardierImg from "@/assets/boulevardier.jpg";
+import aperolSpritzImg from "@/assets/aperol-spritz.jpg";
+import vieuxCarreImg from "@/assets/vieux-carre.jpg";
+import penicillinImg from "@/assets/penicillin.jpg";
 import mojitoImg from "@/assets/mojito.jpg";
 import whiskeySourImg from "@/assets/whiskey-sour.jpg";
 import daiquiriImg from "@/assets/daiquiri.jpg";
 import martiniImg from "@/assets/martini.jpg";
+import ginTonicImg from "@/assets/gin-tonic.jpg";
+import darkAndStormyImg from "@/assets/dark-and-stormy.jpg";
+import moscowMuleImg from "@/assets/moscow-mule.jpg";
+import palomaImg from "@/assets/paloma.jpg";
+import tomCollinsImg from "@/assets/tom-collins.jpg";
+import mintJulepImg from "@/assets/mint-julep.jpg";
 import cosmopolitanImg from "@/assets/cosmopolitan.jpg";
 import pinaColadaImg from "@/assets/pina-colada.jpg";
 import maiTaiImg from "@/assets/mai-tai.jpg";
+import bloodyMaryImg from "@/assets/bloody-mary.jpg";
+import aviationImg from "@/assets/aviation.jpg";
+import brambleImg from "@/assets/bramble.jpg";
+import corpseReviverImg from "@/assets/corpse-reviver.jpg";
+import cloverClubImg from "@/assets/clover-club.jpg";
+import southsideImg from "@/assets/southside.jpg";
+import french75Img from "@/assets/french-75.jpg";
 
 const imageMap: Record<string, string> = {
   "old-fashioned.jpg": oldFashionedImg,
   "negroni.jpg": negroniImg,
   "manhattan.jpg": manhattanImg,
   "margarita.jpg": margaritaImg,
+  "espresso-martini.jpg": espressoMartiniImg,
+  "sazerac.jpg": sazeracImg,
+  "boulevardier.jpg": boulevardierImg,
+  "aperol-spritz.jpg": aperolSpritzImg,
+  "vieux-carre.jpg": vieuxCarreImg,
+  "penicillin.jpg": penicillinImg,
   "mojito.jpg": mojitoImg,
   "whiskey-sour.jpg": whiskeySourImg,
   "daiquiri.jpg": daiquiriImg,
   "martini.jpg": martiniImg,
+  "gin-tonic.jpg": ginTonicImg,
+  "dark-and-stormy.jpg": darkAndStormyImg,
+  "moscow-mule.jpg": moscowMuleImg,
+  "paloma.jpg": palomaImg,
+  "tom-collins.jpg": tomCollinsImg,
+  "mint-julep.jpg": mintJulepImg,
   "cosmopolitan.jpg": cosmopolitanImg,
   "pina-colada.jpg": pinaColadaImg,
   "mai-tai.jpg": maiTaiImg,
+  "bloody-mary.jpg": bloodyMaryImg,
+  "aviation.jpg": aviationImg,
+  "bramble.jpg": brambleImg,
+  "corpse-reviver.jpg": corpseReviverImg,
+  "clover-club.jpg": cloverClubImg,
+  "southside.jpg": southsideImg,
+  "french-75.jpg": french75Img,
 };
 
 interface Cocktail {
