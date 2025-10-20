@@ -90,9 +90,15 @@ const Index = () => {
       )
     : cocktailsWithImages;
 
-  const barmanCocktails = filteredCocktails.filter((c) => c.category === "barman");
-  const otherCocktails = filteredCocktails.filter((c) => c.category === "other");
-  const unavailableCocktails = filteredCocktails.filter((c) => c.category === "unavailable");
+  const barmanCocktails = filteredCocktails
+    .filter((c) => c.category === "barman")
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const otherCocktails = filteredCocktails
+    .filter((c) => c.category === "other")
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const unavailableCocktails = filteredCocktails
+    .filter((c) => c.category === "unavailable")
+    .sort((a, b) => a.name.localeCompare(b.name));
 
   const handleIngredientClick = (ingredient: string) => {
     setSelectedIngredient(ingredient);
