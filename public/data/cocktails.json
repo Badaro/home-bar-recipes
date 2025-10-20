@@ -1,0 +1,214 @@
+{
+  "cocktails": [
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "category": "barman",
+      "ingredients": ["Bourbon", "Angostura Bitters", "Sugar", "Orange Peel"],
+      "image": "old-fashioned.jpg"
+    },
+    {
+      "id": "negroni",
+      "name": "Negroni",
+      "category": "barman",
+      "ingredients": ["Gin", "Campari", "Sweet Vermouth", "Orange Peel"],
+      "image": "negroni.jpg"
+    },
+    {
+      "id": "manhattan",
+      "name": "Manhattan",
+      "category": "barman",
+      "ingredients": ["Rye Whiskey", "Sweet Vermouth", "Angostura Bitters", "Cherry"],
+      "image": "manhattan.jpg"
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "category": "barman",
+      "ingredients": ["Tequila", "Lime Juice", "Triple Sec", "Salt"],
+      "image": "margarita.jpg"
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "category": "barman",
+      "ingredients": ["Vodka", "Coffee Liqueur", "Espresso", "Sugar"],
+      "image": "espresso-martini.jpg"
+    },
+    {
+      "id": "sazerac",
+      "name": "Sazerac",
+      "category": "barman",
+      "ingredients": ["Rye Whiskey", "Absinthe", "Peychaud's Bitters", "Sugar", "Lemon Peel"],
+      "image": "sazerac.jpg"
+    },
+    {
+      "id": "boulevardier",
+      "name": "Boulevardier",
+      "category": "barman",
+      "ingredients": ["Bourbon", "Campari", "Sweet Vermouth", "Orange Peel"],
+      "image": "boulevardier.jpg"
+    },
+    {
+      "id": "aperol-spritz",
+      "name": "Aperol Spritz",
+      "category": "barman",
+      "ingredients": ["Aperol", "Prosecco", "Soda Water", "Orange Slice"],
+      "image": "aperol-spritz.jpg"
+    },
+    {
+      "id": "vieux-carre",
+      "name": "Vieux Carré",
+      "category": "barman",
+      "ingredients": ["Rye Whiskey", "Cognac", "Sweet Vermouth", "Benedictine", "Bitters"],
+      "image": "vieux-carre.jpg"
+    },
+    {
+      "id": "penicillin",
+      "name": "Penicillin",
+      "category": "barman",
+      "ingredients": ["Scotch", "Lemon Juice", "Honey Syrup", "Ginger", "Islay Scotch"],
+      "image": "penicillin.jpg"
+    },
+    {
+      "id": "mojito",
+      "name": "Mojito",
+      "category": "other",
+      "ingredients": ["White Rum", "Lime Juice", "Sugar", "Mint", "Soda Water"],
+      "image": "mojito.jpg"
+    },
+    {
+      "id": "whiskey-sour",
+      "name": "Whiskey Sour",
+      "category": "other",
+      "ingredients": ["Bourbon", "Lemon Juice", "Sugar", "Egg White"],
+      "image": "whiskey-sour.jpg"
+    },
+    {
+      "id": "daiquiri",
+      "name": "Daiquiri",
+      "category": "other",
+      "ingredients": ["White Rum", "Lime Juice", "Sugar"],
+      "image": "daiquiri.jpg"
+    },
+    {
+      "id": "martini",
+      "name": "Martini",
+      "category": "other",
+      "ingredients": ["Gin", "Dry Vermouth", "Olive"],
+      "image": "martini.jpg"
+    },
+    {
+      "id": "gin-tonic",
+      "name": "Gin & Tonic",
+      "category": "other",
+      "ingredients": ["Gin", "Tonic Water", "Lime Wedge"],
+      "image": "gin-tonic.jpg"
+    },
+    {
+      "id": "dark-and-stormy",
+      "name": "Dark 'n' Stormy",
+      "category": "other",
+      "ingredients": ["Dark Rum", "Ginger Beer", "Lime Juice"],
+      "image": "dark-and-stormy.jpg"
+    },
+    {
+      "id": "moscow-mule",
+      "name": "Moscow Mule",
+      "category": "other",
+      "ingredients": ["Vodka", "Ginger Beer", "Lime Juice"],
+      "image": "moscow-mule.jpg"
+    },
+    {
+      "id": "paloma",
+      "name": "Paloma",
+      "category": "other",
+      "ingredients": ["Tequila", "Grapefruit Soda", "Lime Juice", "Salt"],
+      "image": "paloma.jpg"
+    },
+    {
+      "id": "tom-collins",
+      "name": "Tom Collins",
+      "category": "other",
+      "ingredients": ["Gin", "Lemon Juice", "Sugar", "Soda Water"],
+      "image": "tom-collins.jpg"
+    },
+    {
+      "id": "mint-julep",
+      "name": "Mint Julep",
+      "category": "other",
+      "ingredients": ["Bourbon", "Mint", "Sugar", "Crushed Ice"],
+      "image": "mint-julep.jpg"
+    },
+    {
+      "id": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "category": "unavailable",
+      "ingredients": ["Vodka", "Cointreau", "Cranberry Juice", "Lime Juice"],
+      "image": "cosmopolitan.jpg"
+    },
+    {
+      "id": "pina-colada",
+      "name": "Piña Colada",
+      "category": "unavailable",
+      "ingredients": ["White Rum", "Coconut Cream", "Pineapple Juice"],
+      "image": "pina-colada.jpg"
+    },
+    {
+      "id": "mai-tai",
+      "name": "Mai Tai",
+      "category": "unavailable",
+      "ingredients": ["White Rum", "Dark Rum", "Orange Curaçao", "Lime Juice", "Orgeat Syrup"],
+      "image": "mai-tai.jpg"
+    },
+    {
+      "id": "bloody-mary",
+      "name": "Bloody Mary",
+      "category": "unavailable",
+      "ingredients": ["Vodka", "Tomato Juice", "Worcestershire Sauce", "Tabasco", "Celery Salt"],
+      "image": "bloody-mary.jpg"
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "category": "unavailable",
+      "ingredients": ["Gin", "Maraschino Liqueur", "Crème de Violette", "Lemon Juice"],
+      "image": "aviation.jpg"
+    },
+    {
+      "id": "bramble",
+      "name": "Bramble",
+      "category": "unavailable",
+      "ingredients": ["Gin", "Lemon Juice", "Sugar", "Crème de Mûre", "Blackberry"],
+      "image": "bramble.jpg"
+    },
+    {
+      "id": "corpse-reviver",
+      "name": "Corpse Reviver #2",
+      "category": "unavailable",
+      "ingredients": ["Gin", "Cointreau", "Lillet Blanc", "Lemon Juice", "Absinthe"],
+      "image": "corpse-reviver.jpg"
+    },
+    {
+      "id": "clover-club",
+      "name": "Clover Club",
+      "category": "unavailable",
+      "ingredients": ["Gin", "Raspberry Syrup", "Lemon Juice", "Egg White"],
+      "image": "clover-club.jpg"
+    },
+    {
+      "id": "southside",
+      "name": "Southside",
+      "category": "unavailable",
+      "ingredients": ["Gin", "Lime Juice", "Mint", "Sugar"],
+      "image": "southside.jpg"
+    },
+    {
+      "id": "french-75",
+      "name": "French 75",
+      "category": "unavailable",
+      "ingredients": ["Gin", "Champagne", "Lemon Juice", "Sugar"],
+      "image": "french-75.jpg"
+    }
+  ]
+}
