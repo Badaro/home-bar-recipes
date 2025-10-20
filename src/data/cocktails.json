@@ -1,0 +1,81 @@
+{
+  "cocktails": [
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "category": "barman",
+      "ingredients": ["Bourbon", "Angostura Bitters", "Sugar", "Orange Peel"],
+      "image": "old-fashioned.jpg"
+    },
+    {
+      "id": "negroni",
+      "name": "Negroni",
+      "category": "barman",
+      "ingredients": ["Gin", "Campari", "Sweet Vermouth", "Orange Peel"],
+      "image": "negroni.jpg"
+    },
+    {
+      "id": "manhattan",
+      "name": "Manhattan",
+      "category": "barman",
+      "ingredients": ["Rye Whiskey", "Sweet Vermouth", "Angostura Bitters", "Cherry"],
+      "image": "manhattan.jpg"
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "category": "barman",
+      "ingredients": ["Tequila", "Lime Juice", "Triple Sec", "Salt"],
+      "image": "margarita.jpg"
+    },
+    {
+      "id": "mojito",
+      "name": "Mojito",
+      "category": "other",
+      "ingredients": ["White Rum", "Lime Juice", "Sugar", "Mint", "Soda Water"],
+      "image": "mojito.jpg"
+    },
+    {
+      "id": "whiskey-sour",
+      "name": "Whiskey Sour",
+      "category": "other",
+      "ingredients": ["Bourbon", "Lemon Juice", "Sugar", "Egg White"],
+      "image": "whiskey-sour.jpg"
+    },
+    {
+      "id": "daiquiri",
+      "name": "Daiquiri",
+      "category": "other",
+      "ingredients": ["White Rum", "Lime Juice", "Sugar"],
+      "image": "daiquiri.jpg"
+    },
+    {
+      "id": "martini",
+      "name": "Martini",
+      "category": "other",
+      "ingredients": ["Gin", "Dry Vermouth", "Olive"],
+      "image": "martini.jpg"
+    },
+    {
+      "id": "cosmopolitan",
+      "name": "Cosmopolitan",
+      "category": "unavailable",
+      "ingredients": ["Vodka", "Cointreau", "Cranberry Juice", "Lime Juice"],
+      "image": "cosmopolitan.jpg"
+    },
+    {
+      "id": "pina-colada",
+      "name": "Piña Colada",
+      "category": "unavailable",
+      "ingredients": ["White Rum", "Coconut Cream", "Pineapple Juice"],
+      "image": "pina-colada.jpg"
+    },
+    {
+      "id": "mai-tai",
+      "name": "Mai Tai",
+      "category": "unavailable",
+      "ingredients": ["White Rum", "Dark Rum", "Orange Curaçao", "Lime Juice", "Orgeat Syrup"],
+      "image": "mai-tai.jpg"
+    }
+  ]
+}
