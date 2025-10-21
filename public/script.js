@@ -5,7 +5,8 @@ let selectedIngredient = null;
 async function loadCocktails() {
   try {
     const response = await fetch('./data/cocktails.json');
-    allCocktails = await response.json();
+    const data = await response.json();
+    allCocktails = data.cocktails;
     renderCocktails();
   } catch (error) {
     console.error('Error loading cocktails:', error);
