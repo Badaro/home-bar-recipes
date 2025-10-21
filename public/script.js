@@ -5,7 +5,7 @@ let selectedIngredient = null;
 async function loadCocktails() {
   try {
     console.log('Attempting to fetch cocktails...');
-    const response = await fetch('./data/cocktails.json');
+    const response = await fetch('/public/data/cocktails.json');
     console.log('Response status:', response.status);
     const data = await response.json();
     console.log('Data loaded:', data);
@@ -116,7 +116,7 @@ function renderCategory(title, cocktails) {
   cocktails.forEach(cocktail => {
     html += `
       <div class="cocktail-card">
-        <img src="./images/${cocktail.image}" alt="${cocktail.name}" class="cocktail-image" />
+        <img src="/public/images/${cocktail.image}" alt="${cocktail.name}" class="cocktail-image" />
         <div class="cocktail-content">
           <h3 class="cocktail-name">${cocktail.name}</h3>
           <p class="ingredients-label">INGREDIENTS</p>
