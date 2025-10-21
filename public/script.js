@@ -4,13 +4,16 @@ let selectedIngredient = null;
 // Load cocktails data
 async function loadCocktails() {
   try {
+    console.log('Attempting to fetch cocktails...');
     const response = await fetch('./data/cocktails.json');
+    console.log('Response status:', response.status);
     const data = await response.json();
+    console.log('Data loaded:', data);
     allCocktails = data.cocktails;
     renderCocktails();
   } catch (error) {
     console.error('Error loading cocktails:', error);
-    document.getElementById('app').innerHTML = '<div class="empty-state">Error loading cocktails data.</div>';
+    document.getElementById('app').innerHTML = '<div class="empty-state">Error loading cocktails data. Check console for details.</div>';
   }
 }
 
