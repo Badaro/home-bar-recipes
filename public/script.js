@@ -10,7 +10,9 @@ async function loadCocktails() {
     const data = await response.json();
     console.log('Data loaded:', data);
     allCocktails = data.cocktails;
+    console.log('About to call renderCocktails with', allCocktails.length, 'cocktails');
     renderCocktails();
+    console.log('renderCocktails completed');
   } catch (error) {
     console.error('Error loading cocktails:', error);
     document.getElementById('app').innerHTML = '<div class="empty-state">Error loading cocktails data. Check console for details.</div>';
@@ -31,7 +33,9 @@ function clearFilter() {
 
 // Render cocktails
 function renderCocktails() {
+  console.log('renderCocktails called, allCocktails:', allCocktails);
   const app = document.getElementById('app');
+  console.log('App element found:', !!app);
   
   // Filter cocktails if ingredient is selected
   const filteredCocktails = selectedIngredient
