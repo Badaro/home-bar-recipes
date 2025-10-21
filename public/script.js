@@ -58,6 +58,7 @@ function renderCocktails() {
   // Build HTML
   let html = `
     <header>
+      <div class="logo">BadaPub</div>
       <h1>The Home Bar</h1>
       <p class="subtitle">Curated Cocktail Collection</p>
     </header>
