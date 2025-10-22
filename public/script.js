@@ -1,4 +1,5 @@
 let allCocktails = [];
+let categories = [];
 let selectedIngredient = null;
 
 // Load cocktails data
@@ -9,6 +10,7 @@ async function loadCocktails() {
     console.log('Response status:', response.status);
     const data = await response.json();
     console.log('Data loaded:', data);
+    categories = data.categories || [];
     allCocktails = data.cocktails;
     console.log('About to call renderCocktails with', allCocktails.length, 'cocktails');
     renderCocktails();
@@ -42,19 +44,6 @@ function renderCocktails() {
     ? allCocktails.filter(c => c.ingredients.includes(selectedIngredient))
     : allCocktails;
   
-  // Sort and categorize
-  const barmanCocktails = filteredCocktails
-    .filter(c => c.category === 'barman')
-    .sort((a, b) => a.name.localeCompare(b.name));
-  
-  const otherCocktails = filteredCocktails
-    .filter(c => c.category === 'other')
-    .sort((a, b) => a.name.localeCompare(b.name));
-  
-  const unavailableCocktails = filteredCocktails
-    .filter(c => c.category === 'unavailable')
-    .sort((a, b) => a.name.localeCompare(b.name));
-  
   // Build HTML
   let html = `
     <header>
@@ -78,18 +67,18 @@ function renderCocktails() {
   
   html += '<main class="container">';
   
-  // Render categories
-  if (barmanCocktails.length > 0) {
-    html += renderCategory("Barman's Recommendations", barmanCocktails);
-  }
-  
-  if (otherCocktails.length > 0) {
-    html += renderCategory("Other Drinks", otherCocktails);
-  }
-  
-  if (unavailableCocktails.length > 0) {
-    html += renderCategory("Ingredients Not Available", unavailableCocktails);
-  }
+  // Render categories dynamically
+  categories
+    .sort((a, b) => a.order - b.order)
+    .forEach(category => {
+      const categoryCocktails = filteredCocktails
+        .filter(c => c.category === category.id)
+        .sort((a, b) => a.name.localeCompare(b.name));
+      
+      if (categoryCocktails.length > 0) {
+        html += renderCategory(category.title, categoryCocktails);
+      }
+    });
   
   if (filteredCocktails.length === 0) {
     html += '<div class="empty-state">No cocktails found with this ingredient.</div>';

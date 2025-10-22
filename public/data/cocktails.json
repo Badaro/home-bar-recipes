@@ -1,4 +1,21 @@
 {
+  "categories": [
+    {
+      "id": "barman",
+      "title": "Barman's Recommendations",
+      "order": 1
+    },
+    {
+      "id": "other",
+      "title": "Other Drinks",
+      "order": 2
+    },
+    {
+      "id": "unavailable",
+      "title": "Ingredients Not Available",
+      "order": 3
+    }
+  ],
   "cocktails": [
     {
       "id": "old-fashioned",
